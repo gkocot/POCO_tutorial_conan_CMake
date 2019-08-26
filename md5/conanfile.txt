@@ -1,0 +1,7 @@
+ [requires]
+ Poco/1.9.3@pocoproject/stable
+ OpenSSL/1.1.1c@conan/stable
+ zlib/1.2.9@conan/stable
+
+ [generators]
+ cmake
