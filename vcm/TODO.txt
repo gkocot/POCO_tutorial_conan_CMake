@@ -1,0 +1,9 @@
+- Unit/regression tests;
+- API documentation;
+- Client/client library (Python?);
+- Debugging, performance monitoring;
+- Logging;
+- Configuration/documentation;
+- Run as service or executable under Windows/Linux;
+- Simplest API (HTTP) server;
+- Coding standard linting?
