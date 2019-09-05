@@ -5,3 +5,6 @@
  
  [generators]
  cmake
+ 
+ [options]
+ Poco:enable_netssl_win=False
