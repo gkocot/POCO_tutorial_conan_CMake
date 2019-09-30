@@ -13,3 +13,6 @@ cd md5 && mkdir build_debug && cd build_debug
 conan install .. --settings compiler="Visual Studio" --settings compiler.version=16 --build=missing --settings build_type=Debug
 cmake .. -G "Visual Studio 16 2019"
 cmake --build . --config Debug
+
+openssl req -x509 -config openssl.cnf -set_serial 1 -nodes -days 36500 -newkey rsa:2048 -keyout any.pem -out rootcert.pem -subj "/CN=*"
+type rootcert.pem >> any.pem
